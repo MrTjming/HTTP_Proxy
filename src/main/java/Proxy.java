@@ -10,7 +10,7 @@ public class Proxy implements Runnable {
     private Socket serverSocket;
     private String requestMsg;
     private String responseMsg;
-    private int handleType = 2;// 要使用的转发类型
+    private int handleType = 1;// 要使用的转发类型
 
     public Proxy(Socket clientSocket) {
         this.clientSocket = clientSocket;
